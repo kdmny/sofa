@@ -76,7 +76,10 @@ module Sofa
         :network        => nil,
         :airtime        => :air_time,
         :airday         => :air_day,
-        :timezone       => :time_zone
+        :timezone       => :time_zone,
+        :image          => :image,
+        :totalseasons   => :totalseasons,
+        :airday         => :airday
       )
       maps(:genres => nil) { |value| value["genre"] }
       maps(:akas => nil) { |value| value["aka"] }

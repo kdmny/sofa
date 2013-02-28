@@ -30,7 +30,8 @@ module Sofa
         :prodnum   => :prod_num,
         :airdate   => :air_date,
         :link      => nil,
-        :title     => nil
+        :title     => nil,
+        :screencap => :screencap
       )
 
       # The season number of the Season this Episode belongs to.
